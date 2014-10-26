@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <title>Pizarra magica</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+  <body >
+    <div id="connections"></div>
+    <div id="cursors">
+      <!-- Aqui pondremos los cursores de nuestros amigos -->
+    </div>
+
+    <canvas id="paper" width="860" height="480">
+      Tu Navegador debe sorportar canvas
+    </canvas>
+    <hgroup id="instructions">
+      <h1>!Pizarra Magica RealTime</h1>
+      <h2>Dibujas en cualquier lugar con tu cursos</h2>
+      <h3>Si quieres un Canvas nuevos simplemente resfresca la pagina</h3>
+    </hgroup>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="javascripts/main.js"></script>
+  </body>
+</html>  

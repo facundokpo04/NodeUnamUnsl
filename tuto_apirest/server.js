@@ -22,7 +22,8 @@ app.configure(function() {
 
 // Definición de modelos
 var Todo = mongoose.model('Todo', {
-    text: String
+    text: String,
+    nombre: String
 });
 // Rutas de nuestro API
 // GET de todos los TODOs
